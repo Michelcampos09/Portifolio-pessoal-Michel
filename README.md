@@ -6,7 +6,7 @@ Portfólio profissional moderno, minimalista e responsivo desenvolvido com **Rea
 
 ## 🌐 Acesse o site online
 
-**[https://seu-portfolio.vercel.app/](https://seu-portfolio.vercel.app/)** _(Link em breve)_
+**[https://portfolio-michel-pessoal-app.vercel.app/]**
 
 O site está configurado para deploy contínuo e rápido na plataforma **Vercel**.
 
