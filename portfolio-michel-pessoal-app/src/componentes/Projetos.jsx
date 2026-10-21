@@ -16,8 +16,9 @@ const projetos = [
     numero: '02',
     categoria: 'Desenvolvimento HTML',
     titulo: 'Restaurante Saint-Michel',
-    link: '#projetos', // troque pelo link do site quando estiver publicado
+    link: 'https://restaurante-saint-michel.vercel.app/',
     imagem: imagemRestaurante,
+    externo: true,
   },
 ]
 

@@ -2,8 +2,8 @@ import { useState } from 'react'
 
 const links = [
   { texto: 'Projetos', destino: '#projetos' },
-  { texto: 'Contato', destino: '#contato' },
   { texto: 'Sobre mim', destino: '#sobre' },
+  { texto: 'Contato', destino: '#contato' },
 ]
 
 function Cabecalho() {

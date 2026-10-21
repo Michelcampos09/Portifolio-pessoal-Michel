@@ -1,3 +1,5 @@
+import fotoPerfil from '../assets/michel-perfil.jpg'
+
 const tecnologias = ['Desenvolvedor de Software', 'JavaScript', 'HTML', 'CSS', 'React', 'PostgreSQL']
 
 function Inicio() {
@@ -8,10 +10,11 @@ function Inicio() {
       <div className="inicio-foto">
         <div className="moldura">
           <div className="foto">
-            <span className="foto-circulo foto-circulo-1"></span>
-            <span className="foto-circulo foto-circulo-2"></span>
-            <strong>MSC</strong>
-            <small>Sua foto aqui</small>
+            <img
+              src={fotoPerfil}
+              alt="Foto de Michel Serejo Campos"
+              className="foto-perfil-img"
+            />
           </div>
         </div>
         <span className="faixa-marrom"></span>
