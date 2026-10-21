@@ -1,4 +1,5 @@
 import imagemGerenciador from '../assets/gerenciador-tarefas.png'
+import imagemRestaurante from '../assets/restaurante-saint-michel.jpg'
 
 // Apenas dois projetos, cada um em um quadrado pequeno
 // "imagem" e "externo" são opcionais: sem imagem aparece o número grande
@@ -11,7 +12,13 @@ const projetos = [
     imagem: imagemGerenciador,
     externo: true,
   },
-  { numero: '02', categoria: 'Aplicação React', titulo: 'Inserir título', link: '#projetos' },
+  {
+    numero: '02',
+    categoria: 'Desenvolvimento HTML',
+    titulo: 'Restaurante Saint-Michel',
+    link: '#projetos', // troque pelo link do site quando estiver publicado
+    imagem: imagemRestaurante,
+  },
 ]
 
 function Projetos() {
